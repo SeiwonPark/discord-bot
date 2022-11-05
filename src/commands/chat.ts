@@ -3,6 +3,10 @@ import {
   SlashCommandStringOption,
 } from "@discordjs/builders";
 
+/**
+ * Chatbot
+ * command: `/chat say: <Enter Text>`
+ */
 export const Chat = new SlashCommandBuilder()
   .setName("chat")
   .setDescription("chat bot")
