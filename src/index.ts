@@ -1,6 +1,7 @@
 import { Client } from "discord.js";
-import ready from "./ready";
+import ready from "./config";
 import { config } from "dotenv";
+import slashCommandHandler from "./handler/slash";
 
 config();
 const TOKEN = process.env.TOKEN;
@@ -11,4 +12,5 @@ const client = new Client({
 });
 
 ready(client);
+slashCommandHandler(client);
 client.login(TOKEN);
