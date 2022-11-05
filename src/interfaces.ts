@@ -5,7 +5,7 @@ import {
 } from "discord.js";
 
 /**
- * Slash Command
+ * Simple Slash Command
  */
 export interface SlashCommand extends ChatInputApplicationCommandData {
   name: string;
