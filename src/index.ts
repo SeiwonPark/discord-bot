@@ -2,7 +2,7 @@ import { Client, REST, Routes, GatewayIntentBits } from "discord.js";
 import ready from "./configs";
 import { config } from "dotenv";
 import { Chat } from "./commands/chat";
-import { Blur } from "./commands/meme";
+import { Blur, Pixelate } from "./commands/meme";
 import { Ping } from "./commands/ping";
 import commandHandler from "./handlers";
 
@@ -24,7 +24,7 @@ ready(client);
 commandHandler(client);
 
 async function init() {
-  const commands = [Ping, Chat, Blur];
+  const commands = [Ping, Chat, Blur, Pixelate];
   try {
     await rest.put(Routes.applicationGuildCommands(CLIENT_ID, GUILD_ID), {
       body: commands,
