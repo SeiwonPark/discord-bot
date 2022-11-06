@@ -9,8 +9,8 @@ import {
  */
 export const Chat = new SlashCommandBuilder()
   .setName("chat")
-  .setDescription("chat bot")
+  .setDescription("⭐️ Chat bot")
   .addStringOption((option: SlashCommandStringOption) =>
-    option.setName("say").setDescription("say something").setRequired(true)
+    option.setName("say").setDescription("💬 say something").setRequired(true)
   )
   .toJSON();
