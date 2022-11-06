@@ -3,7 +3,7 @@
         "target": "esnext",
         "module": "commonjs",
         "rootDir": "./src/",
-        "outDir": "./public/",
+        "outDir": "./dist/",
         "strict": true,
         "importHelpers": false,
         "experimentalDecorators": true,
