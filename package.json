@@ -48,7 +48,7 @@
     "@napi-rs/canvas": "^0.1.30",
     "apos-to-lex-form": "^1.0.5",
     "cleverbot-free": "^1.1.11",
-    "discord-bot": "link:",
+    "discord-bot": "file:./",
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.3",
     "jimp": "^0.16.2",
