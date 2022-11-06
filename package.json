@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/natural": "^5.1.1",
     "@types/node": "^18.11.9",
+    "@types/node-fetch": "^2.6.2",
     "@types/stopword": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint": "^8.0.1",
@@ -48,8 +49,8 @@
     "dotenv": "^16.0.3",
     "jimp": "^0.16.2",
     "natural": "^5.2.3",
+    "node-fetch": "2.6.7",
     "spelling-corrector": "^3.0.0",
-    "stopword": "^2.0.5",
-    "undici": "^5.12.0"
+    "stopword": "^2.0.5"
   }
 }
