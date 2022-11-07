@@ -25,7 +25,7 @@ ready(client);
 commandHandler(client);
 
 async function init() {
-  const commands = [Ping, Chat, Blur, Pixelate];
+  const commands = [Ping, Chat, Blur, Pixelate, Feel];
   try {
     await rest.put(Routes.applicationGuildCommands(CLIENT_ID, GUILD_ID), {
       body: commands,
