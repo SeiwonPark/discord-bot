@@ -3,7 +3,7 @@
 **Abstract**  
 Simple Discord Bot with some commands.
 
-<br/>   
+<br/>
 
 # Requirements
 
@@ -54,10 +54,24 @@ Just type `/ping` to receive a `pong` response. (Overwrriten `/ping` command.)
 
 (_NOTE_: english only supported)
 
-You can receive a response from your chat
+You can receive a response from your chat.
 
 <br/>
 
 ## Command `/blur <user>`
 
 You can get blurred user's profile.
+
+<br/>
+
+## Command `/pixel <user>`
+
+You can get pixelated user's profile.
+
+<br/>
+
+## Command `/feel say <Some Text>`
+
+(_NOTE_: english only supported)
+
+You can receive a gif response from your chat.
