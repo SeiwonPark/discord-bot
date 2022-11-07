@@ -8,6 +8,12 @@ const MEME_COMMANDS = {
       await handleBlurCommand(client, interaction);
     },
   },
+  pixel: {
+    key: "pixel",
+    execute: async function (client: Client, interaction: CommandInteraction) {
+      await handlePixelateCommand(client, interaction);
+    },
+  },
 };
 
 /**
@@ -51,7 +57,35 @@ const handleBlurCommand = async (
   }
   const avatar = await jimp.read(rawUserURL);
   avatar.blur(5);
-  const result = "blurred.png";
+  const result = "result.png";
+  await avatar.writeAsync(result);
+
+  await interaction.followUp({
+    files: [result],
+    ephemeral: true,
+  });
+};
+
+/**
+ * Wrapper and Runner for `/pixel` Command
+ * @param client Discord client instance
+ * @param interaction The message that your application receives when a user uses an application command or a message component
+ */
+const handlePixelateCommand = async (
+  client: Client,
+  interaction: CommandInteraction
+): Promise<void> => {
+  await interaction.deferReply();
+
+  const targetUser = interaction.options.get("user")?.user;
+
+  let rawUserURL = targetUser!.displayAvatarURL();
+  if (rawUserURL.includes(".webp")) {
+    rawUserURL = rawUserURL.slice(0, rawUserURL.lastIndexOf(".")) + ".png";
+  }
+  const avatar = await jimp.read(rawUserURL);
+  avatar.pixelate(10);
+  const result = "result.png";
   await avatar.writeAsync(result);
 
   await interaction.followUp({
