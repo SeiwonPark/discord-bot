@@ -1,4 +1,5 @@
 # discord-bot
+
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/SeiwonPark/discord-bot/discord.js)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/SeiwonPark/discord-bot/@discordjs/builders)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/SeiwonPark/discord-bot/@discordjs/rest)
@@ -18,6 +19,8 @@ Simple Discord Bot with minor features.
 ![Discord](https://img.shields.io/discord/1038377048944672859?label=Tony%20Server)
 
 Please join [Tony](https://discord.gg/3C8j2AZE) server.
+
+<img src="https://discord.com/widget?id=1038377048944672859&theme=dark" width="350" height="500" />
 
 ## 🧑‍💻 For Cloners
 
