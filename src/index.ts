@@ -3,6 +3,7 @@ import ready from "./configs";
 import { config } from "dotenv";
 import { Chat } from "./commands/chat";
 import { Blur, Pixelate } from "./commands/meme";
+import { Feel } from "./commands/feel";
 import { Ping } from "./commands/ping";
 import commandHandler from "./handlers";
 
