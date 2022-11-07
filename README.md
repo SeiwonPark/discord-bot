@@ -46,11 +46,14 @@ $ docker build -t some-tag . && docker run some-tag
 
 ## Command `/ping`
 
+![](./images/ping.gif)
 Just type `/ping` to receive a `pong` response. (Overwrriten `/ping` command.)
 
 <br/>
 
 ## Command `/chat say <Some Text>`
+
+![](./images/chat.gif)
 
 (_NOTE_: english only supported)
 
@@ -60,18 +63,23 @@ You can receive a response from your chat.
 
 ## Command `/blur <user>`
 
+![](./images/blur.gif)
 You can get blurred user's profile.
 
 <br/>
 
 ## Command `/pixel <user>`
 
+![](./images/pixel.gif)
 You can get pixelated user's profile.
 
 <br/>
 
 ## Command `/feel say <Some Text>`
 
+![](./images/feel.gif)
+
 (_NOTE_: english only supported)
 
+It first analyze text sentiment and then gives you a proper gif image(`positive | neutral | negative`).
 You can receive a gif response from your chat.
