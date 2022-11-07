@@ -16,11 +16,9 @@ Simple Discord Bot with minor features.
 
 ## 🧑 For Users
 
-![Discord](https://img.shields.io/discord/1038377048944672859?label=Tony%20Server)
-
 Please join [Tony](https://discord.gg/3C8j2AZE) server.
 
-<img src="https://discord.com/widget?id=1038377048944672859&theme=dark" width="350" height="500" />
+<img src="https://discord.com/api/guilds/1038377048944672859/widget.png"/>
 
 ## 🧑‍💻 For Cloners
 
@@ -59,14 +57,15 @@ $ docker build -t some-tag . && docker run some-tag
 
 ## ⭐️ Command `/ping`
 
-![](./images/ping.gif)
+<img src="./images/ping.gif" width=300 />
+
 Just type `/ping` to receive a `pong` response. (Overwrriten `/ping` command.)
 
 <br/>
 
 ## ⭐️ Command `/chat say <Some Text>`
 
-![](./images/chat.gif)
+<img src="./images/chat.gif" width=300 />
 
 (_NOTE_: english only supported)
 
@@ -76,21 +75,23 @@ You can receive a response from your chat.
 
 ## ⭐️ Command `/blur <user>`
 
-![](./images/blur.gif)
+<img src="./images/blur.gif" width=300 />
+
 You can get blurred user's profile.
 
 <br/>
 
 ## ⭐️ Command `/pixel <user>`
 
-![](./images/pixel.gif)
+<img src="./images/pixel.gif" width=300 />
+
 You can get pixelated user's profile.
 
 <br/>
 
 ## ⭐️ Command `/feel say <Some Text>`
 
-![](./images/feel.gif)
+<img src="./images/feel.gif" width=300 />
 
 (_NOTE_: english only supported)
 
