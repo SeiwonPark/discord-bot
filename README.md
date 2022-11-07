@@ -1,17 +1,25 @@
 # discord-bot
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/SeiwonPark/discord-bot/discord.js)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/SeiwonPark/discord-bot/@discordjs/builders)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/SeiwonPark/discord-bot/@discordjs/rest)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/SeiwonPark/discord-bot/node-fetch)
 
 **Abstract**  
-Simple Discord Bot with some commands.
+Simple Discord Bot with minor features.
 
 <br/>
 
+---
+
 # Requirements
 
-## For Users
+## 🧑 For Users
+
+![Discord](https://img.shields.io/discord/1038377048944672859?label=Tony%20Server)
 
 Please join [Tony](https://discord.gg/3C8j2AZE) server.
 
-## For Cloners
+## 🧑‍💻 For Cloners
 
 ### Environment variables
 
@@ -40,18 +48,20 @@ $ pnpm add . && pnpm start
 $ docker build -t some-tag . && docker run some-tag
 ```
 
+---
+
 <br/>
 
 # Commands
 
-## Command `/ping`
+## ⭐️ Command `/ping`
 
 ![](./images/ping.gif)
 Just type `/ping` to receive a `pong` response. (Overwrriten `/ping` command.)
 
 <br/>
 
-## Command `/chat say <Some Text>`
+## ⭐️ Command `/chat say <Some Text>`
 
 ![](./images/chat.gif)
 
@@ -61,21 +71,21 @@ You can receive a response from your chat.
 
 <br/>
 
-## Command `/blur <user>`
+## ⭐️ Command `/blur <user>`
 
 ![](./images/blur.gif)
 You can get blurred user's profile.
 
 <br/>
 
-## Command `/pixel <user>`
+## ⭐️ Command `/pixel <user>`
 
 ![](./images/pixel.gif)
 You can get pixelated user's profile.
 
 <br/>
 
-## Command `/feel say <Some Text>`
+## ⭐️ Command `/feel say <Some Text>`
 
 ![](./images/feel.gif)
 
