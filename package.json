@@ -18,9 +18,6 @@
     "discord",
     "bot"
   ],
-  "engines": {
-    "node": "16.18.1"
-  },
   "author": "Seiwon Park",
   "license": "ISC",
   "bugs": {

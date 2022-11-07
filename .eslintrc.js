@@ -7,7 +7,9 @@ module.exports = {
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
+    project: ["./"],
   },
+  ignorePatterns: [".eslintrc.js"],
   rules: {
     quotes: ["error", "double"],
     "import/no-unresolved": 0,
