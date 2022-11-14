@@ -16,7 +16,7 @@ Simple Discord Bot with minor features.
 
 ## 🧑 For Users
 
-Please join [Tony](https://discord.gg/3C8j2AZE) server.
+~Please join [Tony](https://discord.gg/3C8j2AZE) server.~(Currently down)
 
 <img src="https://discord.com/api/guilds/1038377048944672859/widget.png"/>
 
